@@ -1,0 +1,5 @@
+HKM integrates with third-party applications such as contact center software, service management tools, and incident management systems by using the HKM Connect APIs. For more information about how to use the APIs and code samples, see[HKM Connect](https://connect.comaround.com/).
+
+![ComAround_Connect_API.png](.attachments/Integrating-with-third-party-applications-by-using-the-REST-API_HKM_Connect_API.png)
+
+Learn how HKM can be used as a knowledge provider for applications in[Leveraging knowledge articles from HKM in other applications](https://docs.bmc.com/xwiki/bin/view/Service-Management/Employee-Digital-Workplace/BMC-Helix-Knowledge-Management-by-ComAround/hkm/Getting-started/Use-cases/Leveraging-knowledge-articles-from-BMC-Helix-Knowledge-Management-by-ComAround-in-other-BMC-applications/). For more information about using HKM as a knowledge source for HelixGPT, see[Leveraging knowledge articles as a data source for HelixGPT](https://docs.bmc.com/xwiki/bin/view/Service-Management/Employee-Digital-Workplace/BMC-Helix-Knowledge-Management-by-ComAround/hkm/Getting-started/Use-cases/Leveraging-knowledge-articles-as-a-data-source-for-BMC-HelixGPT/).

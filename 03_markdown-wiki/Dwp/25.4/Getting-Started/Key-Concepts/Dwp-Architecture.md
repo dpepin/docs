@@ -1,0 +1,38 @@
+DWP provides a comprehensive digital employee to access knowledge articles, services, and policies across lines of business such as IT, HR, Facilities, and more. Itprovides administrators with straightforward, highly configurable ways to present the capabilities that end users need to be successful.
+
+Related topics
+
+[DWP-Catalog-architecture](https://docs.bmc.com/xwiki/bin/view/Service-Management/Employee-Digital-Workplace/BMC-Helix-Digital-Workplace/dwp254/Getting-started/Key-concepts/BMC-Helix-Digital-Workplace-Catalog-architecture/)
+
+[Key-concepts](https://docs.bmc.com/xwiki/bin/view/Service-Management/Employee-Digital-Workplace/BMC-Helix-Digital-Workplace/dwp254/Getting-started/Key-concepts/)
+
+[License-types-and-features](https://docs.bmc.com/xwiki/bin/view/Service-Management/Employee-Digital-Workplace/BMC-Helix-Digital-Workplace/dwp254/Planning/License-types-and-features/)
+
+The following image shows the architecture of DWP:
+
+![DWP A architecture.png](.attachments/DWP-architecture_DWP-A-architecture.png)
+
+**Important**
+
+To view the architecture forDWP Catalog, see[DWP-Catalog-architecture](https://docs.bmc.com/xwiki/bin/view/Service-Management/Employee-Digital-Workplace/BMC-Helix-Digital-Workplace/dwp254/Getting-started/Key-concepts/BMC-Helix-Digital-Workplace-Catalog-architecture/).
+
+The following table describes the DWP architecture components:
+
+| Component<br> | Description<br> | Reference<br> |
+| --- | --- | --- |
+| DWP application onIS<br> | An application deployed onISthat includes the record definitions, rules, and associations between the record definitions.<br>Administrators*cannot*modify this application.<br> | Not applicable<br> |
+| Provider framework<br> | A method to integrate with other applications such asCMDBandITSM, and specific third-party applications such as Microsoft Exchange and LDAP.<br> | [Integrating-with-other-applications-by-using-providers](https://docs.bmc.com/xwiki/bin/view/Service-Management/Employee-Digital-Workplace/BMC-Helix-Digital-Workplace/dwp254/Integrating/Integrating-with-other-applications-by-using-providers/)<br> |
+| Notification service<br> | A service used to send in-app (bell) notifications, email notifications, and push notifications to end users for various events such as approvals, feedback survey, and so on.<br> | [Configuring-status-updates-and-notifications](https://docs.bmc.com/xwiki/bin/view/Service-Management/Employee-Digital-Workplace/BMC-Helix-Digital-Workplace/dwp254/Administering/Administering-BMC-Helix-Digital-Workplace/Managing-broadcasts-and-notifications-for-end-users/Configuring-status-updates-and-notifications/)<br> |
+| Static web content (HTML/JS)<br> | The DWP end-user console and administration console web application.<br> | Not applicable<br> |
+| DWP CatalogAPI<br> | An interface to integrate withDWP Catalogby using APIs.<br> | Not applicable<br> |
+| Virtual Agent<br> | A conversational interface that communicates with the user in a natural language to search knowledge articles, submit service requests, or check the status of service requests.<br> | [Integrating-a-chat-application-with-DWP](https://docs.bmc.com/xwiki/bin/view/Service-Management/Employee-Digital-Workplace/BMC-Helix-Digital-Workplace/dwp254/Integrating/Integrating-a-BMC-chat-application-with-BMC-Helix-Digital-Workplace/)<br> |
+| Responsive user portal<br> | The DWP end-user console that can be accessed on desktop, tablet, and phones.<br> | [Access-from-anywhere-anytime-on-any-device](https://docs.bmc.com/xwiki/bin/view/Service-Management/Employee-Digital-Workplace/BMC-Helix-Digital-Workplace/dwp254/Getting-started/Use-cases/Access-from-anywhere-anytime-on-any-device/)<br> |
+| DWP Administration console<br> | A user interface to configure global settings or one-time configurations such as setting up end user features, rebranding the end user console, designing pages for lines of business, and analyzing user activities.<br> | [Administering-DWP](https://docs.bmc.com/xwiki/bin/view/Service-Management/Employee-Digital-Workplace/BMC-Helix-Digital-Workplace/dwp254/Administering/Administering-BMC-Helix-Digital-Workplace/)<br> |
+| DWP Catalog<br> | A user interface to configure the service catalog by designing the services and workflows, building reusable questionnaires, managing DWP user roles, creating promotional banners, and defining entitlements.<br> | [Administering-DWP-Catalog](https://docs.bmc.com/xwiki/bin/view/Service-Management/Employee-Digital-Workplace/BMC-Helix-Digital-Workplace/dwp254/Administering/Administering-BMC-Helix-Digital-Workplace-Catalog/)<br> |
+| Approval (Change, Incident, Knowledge)<br> | Support for approvals originating fromAction Request System, which end users in DWP can respond to.<br> | [Enabling-approvals](https://docs.bmc.com/xwiki/bin/view/Service-Management/Employee-Digital-Workplace/BMC-Helix-Digital-Workplace/dwp254/Administering/Administering-BMC-Helix-Digital-Workplace/Setting-up-approvals/Enabling-approvals/)<br> |
+| Approval (case)<br> | Support for case approvals originating fromBusiness Workflows, which end users in DWP can respond to.<br> | [Enabling-approvals](https://docs.bmc.com/xwiki/bin/view/Service-Management/Employee-Digital-Workplace/BMC-Helix-Digital-Workplace/dwp254/Administering/Administering-BMC-Helix-Digital-Workplace/Setting-up-approvals/Enabling-approvals/)<br> |
+| CMDB<br> | Support for assets inCMDB, which administrators can import in DWP so that end users can find nearby resources, follow resource status updates, and update the resource status.<br> | [Managing-assets-on-floor-maps](https://docs.bmc.com/xwiki/bin/view/Service-Management/Employee-Digital-Workplace/BMC-Helix-Digital-Workplace/dwp254/Enabling-self-service-in-an-organization/Locations/Managing-assets-on-floor-maps/)<br> |
+| ITSM<br> | An integration withITSMthat automatically creates service requests in DWP that correspond to change requests, incident requests, and work order requests.<br> | [Creating-service-requests-from-ITSM](https://docs.bmc.com/xwiki/bin/view/Service-Management/Employee-Digital-Workplace/BMC-Helix-Digital-Workplace/dwp254/Creating-and-managing-the-service-catalog/Creating-service-requests-from-BMC-Helix-ITSM/)<br> |
+| ITSM: Knowledge Management<br> | An integration withITSM: Knowledge Managementso that end users can find IT-related knowledge articles for self-service.<br> | [Setting-up-self-help-resources](https://docs.bmc.com/xwiki/bin/view/Service-Management/Employee-Digital-Workplace/BMC-Helix-Digital-Workplace/dwp254/Enabling-self-service-in-an-organization/Setting-up-self-help-resources/)<br> |
+| Business Workflows<br> | An integration withBusiness Workflowsso that end users can leverage custom services for lines of business fromBusiness Workflows, and can view and complete To-Dos assigned by agents,<br> | [Product-overview](https://docs.bmc.com/xwiki/bin/view/Service-Management/Employee-Digital-Workplace/BMC-Helix-Digital-Workplace/dwp254/Getting-started/Product-overview/)<br> |
+| HKM<br> | An integration withBusiness Workflowsso that end users can find knowledge articles or submit services from the knowledge articles.<br> | [Configuring-HKM-as-the-knowledge-provider-for-DWP](https://docs.bmc.com/xwiki/bin/view/Service-Management/Employee-Digital-Workplace/BMC-Helix-Digital-Workplace/dwp254/Configuring-BMC-Helix-Knowledge-Management-by-ComAround-as-the-knowledge-provider-for-BMC-Helix-Digital-Workplace/)<br> |

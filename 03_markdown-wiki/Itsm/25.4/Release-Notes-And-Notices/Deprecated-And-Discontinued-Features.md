@@ -1,0 +1,1 @@
+You must[log in](https://docs.bmc.com/xwiki/bin/login/XWiki/XWikiLogin?xredirect=%2Fxwiki%2Fbin%2Fview%2FService-Management%2FIT-Service-Management%2FBMC-Helix-ITSM%2Fitsm254%2FRelease-notes-and-notices%2FDeprecated-and-discontinued-features%2F)or[register](https://www.bmc.com/available/register-now.html?c=n)to view this page

@@ -1,0 +1,4 @@
+Consult the following topics for information about troubleshooting theHKMproduct and its components, such as problems you might encounter while using the productand accessing the help articles associated with it:
+
+* [Troubleshooting product issues](https://docs.bmc.com/xwiki/bin/view/Service-Management/Employee-Digital-Workplace/BMC-Helix-Knowledge-Management-by-ComAround/hkm/Troubleshooting/Troubleshooting-product-issues/)
+* [Troubleshooting access to help articles](https://docs.bmc.com/xwiki/bin/view/Service-Management/Employee-Digital-Workplace/BMC-Helix-Knowledge-Management-by-ComAround/hkm/Troubleshooting/Troubleshooting-access-to-help-articles/)
